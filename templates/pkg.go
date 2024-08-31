@@ -8,6 +8,7 @@ import (
 
 	"github.com/eden-quan/protoc-gen-validate-fx/templates/cc"
 	"github.com/eden-quan/protoc-gen-validate-fx/templates/ccnop"
+	"github.com/eden-quan/protoc-gen-validate-fx/templates/go"
 	"github.com/eden-quan/protoc-gen-validate-fx/templates/java"
 	"github.com/eden-quan/protoc-gen-validate-fx/templates/shared"
 )
