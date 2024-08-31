@@ -13,7 +13,7 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/sinsay/protoc-gen-validate-fx/templates/shared"
+	"github.com/eden-quan/protoc-gen-validate-fx/templates/shared"
 )
 
 func Register(tpl *template.Template, params pgs.Parameters) {

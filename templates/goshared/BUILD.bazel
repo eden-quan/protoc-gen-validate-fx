@@ -21,7 +21,7 @@ go_library(
         "timestamp.go",
         "wrapper.go",
     ],
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/templates/goshared",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/templates/goshared",
     visibility = ["//visibility:public"],
     deps = [
         "//templates/shared",

@@ -1,6 +1,6 @@
 empty :=
 space := $(empty) $(empty)
-PACKAGE := github.com/sinsay/protoc-gen-validate-fx
+PACKAGE := github.com/eden-quan/protoc-gen-validate-fx
 
 # protoc-gen-go parameters for properly generating the import path for PGV
 VALIDATE_IMPORT := Mvalidate/validate.proto=${PACKAGE}/validate

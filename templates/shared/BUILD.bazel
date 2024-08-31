@@ -10,7 +10,7 @@ go_library(
         "reflection.go",
         "well_known.go",
     ],
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/templates/shared",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/templates/shared",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_lyft_protoc_gen_star_v2//:protoc-gen-star",

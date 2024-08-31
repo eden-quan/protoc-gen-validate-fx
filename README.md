@@ -14,7 +14,7 @@
 
 > [!IMPORTANT]
 > protoc-gen-validate-fx fork from protoc-gen-validate and add flatten/error handling feature (for now)
-> with these feature, validation can work with entire realibox framework
+> with these feature, validation can work with entire github.com/eden-quan framework
 
 PGV is a protoc plugin to generate polyglot message validators. While protocol
 buffers effectively guarantee the types of structured data, they cannot enforce
@@ -95,10 +95,10 @@ Download assets from [GitHub Releases](https://github.com/bufbuild/protoc-gen-va
 
 ```sh
 # fetches this repo into $GOPATH
-go get -d github.com/sinsay/protoc-gen-validate-fx
+go get -d github.com/eden-quan/protoc-gen-validate-fx
 ```
 
-> #### 💡 Yes, our go module path is `github.com/sinsay/protoc-gen-validate-fx` **not** `bufbuild` this is intentional.
+> #### 💡 Yes, our go module path is `github.com/eden-quan/protoc-gen-validate-fx` **not** `bufbuild` this is intentional.
 > Changing the module path is effectively creating a new, independent module. We
 > would prefer not to break our users. The Go team are working on
 > better `cmd/go`

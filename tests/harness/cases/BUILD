@@ -46,7 +46,7 @@ proto_library(
 
 pgv_go_proto_library(
     name = "go",
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/tests/harness/cases/go",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/tests/harness/cases/go",
     proto = ":cases_proto",
     deps = [
         "//tests/harness/cases/other_package:go",

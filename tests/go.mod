@@ -1,4 +1,4 @@
-module github.com/sinsay/protoc-gen-validate-fx/tests
+module github.com/eden-quan/protoc-gen-validate-fx/tests
 
 go 1.21.1
 
@@ -9,4 +9,4 @@ require (
 
 require golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 
-replace github.com/sinsay/protoc-gen-validate-fx => ../
+replace github.com/eden-quan/protoc-gen-validate-fx => ../

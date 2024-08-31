@@ -33,7 +33,7 @@ py_proto_library(
 
 go_proto_library(
     name = "validate_go_proto",
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/validate",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/validate",
     proto = ":validate_proto",
 )
 
@@ -45,7 +45,7 @@ cc_library(
 go_library(
     name = "validate_go",
     embed = [":validate_go_proto"],
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/validate",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/validate",
 )
 
 java_proto_library(

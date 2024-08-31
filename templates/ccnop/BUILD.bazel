@@ -6,7 +6,7 @@ go_library(
         "file.go",
         "register.go",
     ],
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/templates/ccnop",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/templates/ccnop",
     visibility = ["//visibility:public"],
     deps = [
         "//templates/cc",

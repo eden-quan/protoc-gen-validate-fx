@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package tests.harness.cases;
-option go_package = "github.com/sinsay/protoc-gen-validate-fx/tests/harness/cases/go;cases";
+option go_package = "github.com/eden-quan/protoc-gen-validate-fx/tests/harness/cases/go;cases";
 import "validate/validate.proto";
 import "google/protobuf/any.proto";
 

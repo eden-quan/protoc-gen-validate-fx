@@ -4,7 +4,7 @@ import (
 	pgs "github.com/lyft/protoc-gen-star/v2"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/sinsay/protoc-gen-validate-fx/module"
+	"github.com/eden-quan/protoc-gen-validate-fx/module"
 )
 
 func main() {

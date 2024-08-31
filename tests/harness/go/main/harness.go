@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/sinsay/protoc-gen-validate-fx/tests/harness/cases/go"
-	_ "github.com/sinsay/protoc-gen-validate-fx/tests/harness/cases/other_package/go"
-	_ "github.com/sinsay/protoc-gen-validate-fx/tests/harness/cases/yet_another_package/go"
+	_ "github.com/eden-quan/protoc-gen-validate-fx/tests/harness/cases/go"
+	_ "github.com/eden-quan/protoc-gen-validate-fx/tests/harness/cases/other_package/go"
+	_ "github.com/eden-quan/protoc-gen-validate-fx/tests/harness/cases/yet_another_package/go"
 	"google.golang.org/protobuf/proto"
 )
 

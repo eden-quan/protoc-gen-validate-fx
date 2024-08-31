@@ -10,7 +10,7 @@ go_library(
         "required.go",
         "timestamp.go",
     ],
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/templates/go",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/templates/go",
     visibility = ["//visibility:public"],
     deps = [
         "//templates/goshared",

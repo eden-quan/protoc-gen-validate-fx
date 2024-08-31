@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/eden-quan/protoc-gen-validate-fx/module"
 	pgs "github.com/lyft/protoc-gen-star/v2"
 	pgsgo "github.com/lyft/protoc-gen-star/v2/lang/go"
-	"github.com/sinsay/protoc-gen-validate-fx/module"
 	"google.golang.org/protobuf/types/pluginpb"
 )
 

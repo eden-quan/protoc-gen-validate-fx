@@ -1,4 +1,4 @@
-module github.com/sinsay/protoc-gen-validate-fx
+module github.com/eden-quan/protoc-gen-validate-fx
 
 
 

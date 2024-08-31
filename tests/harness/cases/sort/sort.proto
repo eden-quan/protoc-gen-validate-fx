@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package tests.harness.cases.sort;
-option go_package = "github.com/sinsay/protoc-gen-validate-fx/tests/harness/cases/sort/go;sort";
+option go_package = "github.com/eden-quan/protoc-gen-validate-fx/tests/harness/cases/sort/go;sort";
 
 enum Direction {
     UNKNOWN_DIRECTION = 0;

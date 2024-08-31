@@ -6,7 +6,7 @@ go_library(
         "checker.go",
         "validate.go",
     ],
-    importpath = "github.com/sinsay/protoc-gen-validate-fx/module",
+    importpath = "github.com/eden-quan/protoc-gen-validate-fx/module",
     visibility = ["//visibility:public"],
     deps = [
         "//templates",
