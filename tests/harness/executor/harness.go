@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	harness "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/go"
+	harness "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/go"
 	"golang.org/x/net/context"
 	"google.golang.org/protobuf/proto"
 )

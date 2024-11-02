@@ -1,6 +1,6 @@
 empty :=
 space := $(empty) $(empty)
-PACKAGE := gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx
+PACKAGE := gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git
 
 # protoc-gen-go parameters for properly generating the import path for PGV
 VALIDATE_IMPORT := Mvalidate/validate.proto=${PACKAGE}/validate

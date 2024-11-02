@@ -10,7 +10,7 @@ go_library(
         "required.go",
         "timestamp.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/go",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/go",
     visibility = ["//visibility:public"],
     deps = [
         "//templates/goshared",

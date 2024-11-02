@@ -1,9 +1,9 @@
 package module
 
 import (
-	flatten2 "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/flatten"
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/flatten/meta"
 	pgs "github.com/lyft/protoc-gen-star/v2"
+	flatten2 "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/flatten"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/flatten/meta"
 )
 
 func ProcessFlatten(msg pgs.Message) *Message {

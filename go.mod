@@ -1,8 +1,6 @@
-module gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx
+module gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git
 
-
-
-go 1.19
+go 1.22
 
 require (
 	github.com/iancoleman/strcase v0.3.0

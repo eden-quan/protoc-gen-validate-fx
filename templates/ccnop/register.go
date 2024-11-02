@@ -5,7 +5,7 @@ import (
 
 	pgs "github.com/lyft/protoc-gen-star/v2"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/cc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/cc"
 )
 
 func RegisterModule(tpl *template.Template, params pgs.Parameters) {

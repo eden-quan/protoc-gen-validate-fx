@@ -1,8 +1,8 @@
 package flatten
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/flatten/meta"
 	pgs "github.com/lyft/protoc-gen-star/v2"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/flatten/meta"
 )
 
 type FlatInfo struct {

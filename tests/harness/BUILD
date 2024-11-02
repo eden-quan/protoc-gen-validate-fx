@@ -16,7 +16,7 @@ proto_library(
 
 go_proto_library(
     name = "harness_go_proto",
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/go",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/go",
     proto = ":harness_proto",
     visibility = ["//visibility:public"],
 )
@@ -38,7 +38,7 @@ java_proto_library(
 go_library(
     name = "go_default_library",
     embed = [":harness_go_proto"],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness",
     visibility = ["//visibility:public"],
 )
 

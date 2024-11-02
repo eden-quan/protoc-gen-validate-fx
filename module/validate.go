@@ -7,8 +7,8 @@ import (
 	pgs "github.com/lyft/protoc-gen-star/v2"
 	pgsgo "github.com/lyft/protoc-gen-star/v2/lang/go"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates"
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/java"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/java"
 )
 
 const (

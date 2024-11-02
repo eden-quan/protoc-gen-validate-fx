@@ -6,7 +6,7 @@ go_library(
         "checker.go",
         "validate.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/module",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/module",
     visibility = ["//visibility:public"],
     deps = [
         "//templates",

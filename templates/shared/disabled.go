@@ -3,7 +3,7 @@ package shared
 import (
 	pgs "github.com/lyft/protoc-gen-star/v2"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/validate"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/validate"
 )
 
 // Disabled returns true if validations are disabled for msg

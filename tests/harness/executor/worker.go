@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	harness "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/go"
+	harness "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/go"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 )

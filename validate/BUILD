@@ -33,7 +33,7 @@ py_proto_library(
 
 go_proto_library(
     name = "validate_go_proto",
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/validate",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/validate",
     proto = ":validate_proto",
 )
 
@@ -45,7 +45,7 @@ cc_library(
 go_library(
     name = "validate_go",
     embed = [":validate_go_proto"],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/validate",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/validate",
 )
 
 java_proto_library(

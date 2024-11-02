@@ -14,7 +14,7 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/shared"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/shared"
 )
 
 func RegisterIndex(tpl *template.Template, params pgs.Parameters) {

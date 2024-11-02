@@ -1,16 +1,16 @@
 package templates
 
 import (
+	golang "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/go"
 	"text/template"
 
 	pgs "github.com/lyft/protoc-gen-star/v2"
 	pgsgo "github.com/lyft/protoc-gen-star/v2/lang/go"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/cc"
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/ccnop"
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/go"
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/java"
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/templates/shared"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/cc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/ccnop"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/java"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/templates/shared"
 )
 
 type (

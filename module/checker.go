@@ -11,7 +11,7 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/validate"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/validate"
 )
 
 var (

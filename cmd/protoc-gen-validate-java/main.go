@@ -4,7 +4,7 @@ import (
 	pgs "github.com/lyft/protoc-gen-star/v2"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/module"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/module"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 syntax = "proto2";
 package validate;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/validate";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/validate";
 option java_package = "io.envoyproxy.pgv.validate";
 
 import "google/protobuf/descriptor.proto";

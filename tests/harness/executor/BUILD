@@ -13,7 +13,7 @@ go_library(
         "harness.go",
         "worker.go",
     ],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/executor",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/executor",
     visibility = ["//visibility:private"],
     deps = [
         "//tests/harness:harness_go_proto",
@@ -43,7 +43,7 @@ go_binary(
         ],
     }),
     embed = [":go_default_library"],
-    importpath = "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/executor",
+    importpath = "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/executor",
     visibility = ["//visibility:private"],
 )
 

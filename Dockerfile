@@ -65,7 +65,7 @@ RUN go install github.com/bazelbuild/buildtools/buildozer@${BDR_VER} \
 # the distribution we installed doesn't provide this alias
 RUN ln -s /usr/bin/python3.8 /usr/bin/python
 
-WORKDIR ${GOPATH}/src/gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx
+WORKDIR ${GOPATH}/src/gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git
 
 # python tooling for linting and uploading to PyPI
 COPY requirements.txt .

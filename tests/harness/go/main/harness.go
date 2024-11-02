@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	_ "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/cases/go"
-	_ "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/cases/other_package/go"
-	_ "gitlab.lainuoniao.cn/eden-quan/protoc-gen-validate-fx/tests/harness/cases/yet_another_package/go"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/cases/go"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/cases/other_package/go"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protoc-gen-validate-fx.git/tests/harness/cases/yet_another_package/go"
 	"google.golang.org/protobuf/proto"
 )
 
